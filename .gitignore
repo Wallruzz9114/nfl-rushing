@@ -1,0 +1,10 @@
+server/API/bin
+server/API/obj
+
+# dependencies
+web/node_modules
+
+web/yarn-debug.log*
+web/yarn-error.log*
+dump.rdb
+dist
