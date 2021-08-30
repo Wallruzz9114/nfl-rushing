@@ -73,7 +73,7 @@ If you have any questions regarding requirements, do not hesitate to email your 
    - `docker pull redis`
    - `docker run -p 127.0.0.1:6379:6379/tcp --name redis-container -d redis`
 
-5. Go to /server and install the dependencies: `dotnet build`;
+5. Go to /server and install the dependencies: `dotnet build`
 6. Go to /API and run the server: `dotnet watch run`
 7. In another terminal window, go to /web and install the dependencies: `npm i` or `yarn install`
 8. Start the web app: `ng serve`
