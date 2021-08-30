@@ -59,11 +59,6 @@ export class StatsService {
     this.statsParams = params;
   }
 
-  public downloadCSV() {
-    let params = this.getCleanParams();
-    return this.http.get<any>(this.requestURL + '/GenerateCSV', { observe: 'response', params });
-  }
-
   public getCleanParams() {
     let params = new HttpParams();
 
