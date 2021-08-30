@@ -68,9 +68,11 @@ If you have any questions regarding requirements, do not hesitate to email your 
 2. Install Angular CLI: `npm install -g @angular/cli`
 3. Install the C# extension (for VS Code)
 4. Start Redis locally: `redis-server`
+   
    a. You can also use docker:
    - `docker pull redis`
    - `docker run -p 127.0.0.1:6379:6379/tcp --name redis-container -d redis`
+
 5. Go to /server and install the dependencies: `dotnet build`;
 6. Go to /API and run the server: `dotnet watch run`
 7. In another terminal window, go to /web and install the dependencies: `npm i` or `yarn install`
